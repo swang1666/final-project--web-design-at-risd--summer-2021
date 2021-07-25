@@ -8,7 +8,7 @@ body {
   color: #8b1e17;
   text-align: center;
   position: absolute;
-  top: 50%;
+  top: 70%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 100%;
@@ -22,10 +22,6 @@ body {
   animation: text 3s 1;
 }
 
-.text2 {
-  animation: text 3s 1;
-}
-
 ul {
   color: #8b1e17;
   font-size: 20px;
@@ -33,7 +29,13 @@ ul {
   position: relative;
   top: 80%;
   left: 0;
-  line-height: 100px;
+  line-height: 90px;
+  animation: text 3s 1;
+}
+
+a {
+  text-decoration: none;
+  color: #8b1e17;
 }
 
 @keyframes text {
@@ -41,7 +43,18 @@ ul {
     color: #111;
     margin-bottom: auto;
   }
-  30% {
+    30% {
+    letter-spacing: 10px;
+    margin-bottom: auto;
+  }
+}
+
+@keyframes ul {
+  0% {
+    color: #111;
+    margin-bottom: auto;
+  }
+    30% {
     letter-spacing: 10px;
     margin-bottom: auto;
   }
