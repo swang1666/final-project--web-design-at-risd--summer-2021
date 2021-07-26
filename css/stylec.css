@@ -43,3 +43,60 @@ header ul li a {
   padding: 6px 15px;
   color: #8b1e17;
 }
+
+body {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.contact-title {
+  margin-top: 200px;
+  color: #96261d;
+  text-transform: uppercase;
+  transition: all 3s ease-in-out;
+  letter-spacing: 2.7px;
+}
+
+.contact-title h1 {
+  font-size: 32px;
+  line-height: 50px;
+}
+
+.contact-title h2 {
+  font-size: 16px;
+}
+
+form {
+  margin-top: 50px;
+  transition: all 4s ease-in-out;
+}
+
+.form-control {
+  width: 600px;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #721210;
+  color: #eee;
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+
+input {
+  height: 45px;
+}
+
+form .submit {
+  background: #721210;
+  border-color: transparent;
+  color: #eee;
+  font-size: 20px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  margin-top: 20px;
+}
+
+form .submit:hover {
+  background-color: #8b1e17;
+  cursor: pointer;
+}

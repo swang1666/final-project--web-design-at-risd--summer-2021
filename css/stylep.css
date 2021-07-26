@@ -24,10 +24,31 @@ header .o {
   text-transform: uppercase;
 }
 
+header ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header ul li {
+  list-style: none;
+  margin-left: 20px;
+}
+
+header ul li a {
+  font-family: monospace;
+  font-weight: 600;
+  font-size: 18px;
+  text-decoration: none;
+  padding: 6px 15px;
+  color: #8b1e17;
+}
+
 .slidershow {
-  width: 600px;
-  height: 800px;
+  width: 510px;
+  height: 680px;
   overflow: hidden;
+  margin-top: .5in;
 }
 
 .middle {
