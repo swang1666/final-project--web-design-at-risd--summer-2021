@@ -43,3 +43,25 @@ header ul li a {
   padding: 6px 15px;
   color: #8b1e17;
 }
+
+.container {
+  color: #821111;
+  font-size: .75rem;
+  font-family: monospace;
+  margin: 0 30px 0 260px;
+  padding: 40px 0 0;
+  position: absolute;
+  top: 270px;
+  left: 10%;
+  width: 499px;
+}
+
+div .slide {
+  line-height: 60px;
+  letter-spacing: .7px;
+}
+
+div .slide2 {
+  line-height: 30px;
+  letter-spacing: .2px;
+}
